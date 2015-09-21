@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sesion6.iml" filepath="$PROJECT_DIR$/Sesion6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej2.3.3/ej2.3.3.iml" filepath="$PROJECT_DIR$/ej2.3.3/ej2.3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej4.0.3/ej4.0.3.iml" filepath="$PROJECT_DIR$/ej4.0.3/ej4.0.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej4.4/ej4.4.iml" filepath="$PROJECT_DIR$/ej4.4/ej4.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej5.0/ej5.0.iml" filepath="$PROJECT_DIR$/ej5.0/ej5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej5.1/ej5.1.iml" filepath="$PROJECT_DIR$/ej5.1/ej5.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejnotas/ejnotas.iml" filepath="$PROJECT_DIR$/ejnotas/ejnotas.iml" />
+    </modules>
+  </component>
+</project>
