@@ -1,5 +1,6 @@
 package com.edwinacubillos.ejnotas;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,9 +54,23 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-   /*     if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
+            Toast.makeText(this, "Menu Acerca de presionado", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(this, AboutActivity.class);
+            startActivity(i);
             return true;
-        }*/
+        }
+
+        if (id == R.id.action_conf) {
+            Intent i = new Intent(this, ConfActiviy.class);
+            i.putExtra("pQuiz",15);
+            i.putExtra("pExpo",10);
+            i.putExtra("pPra",40);
+            i.putExtra("pPro",35);
+            startActivity(i);
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }
